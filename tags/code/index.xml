@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on 点滴</title><link>http://localhost/tags/code/</link><description>Recent content in Code on 点滴</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 15 May 2021 18:59:49 +0800</lastBuildDate><atom:link href="http://localhost/tags/code/index.xml" rel="self" type="application/rss+xml"/><item><title>Some Similar English Word</title><link>http://localhost/posts/some-similar-english-word/</link><pubDate>Sat, 15 May 2021 18:59:49 +0800</pubDate><guid>http://localhost/posts/some-similar-english-word/</guid><description>
+一些易混的程序设计常用单词 一些单词,
+单独拎出能够明白，
+可是一起出现就有些分不清,
+这里列举了些常见的易混淆单词。
+parameter, argument1, flag, option 2 parameter is a variable in a method definition . arguments When a method is called ,the arguments are the data you pass into the method&amp;rsquo;s parameters. option The term option is derived from optional, which implies they can be left out. Flags the same as option, but usually do not take arguments themselves and essentially represent boolean on-off switches.</description></item></channel></rss>
