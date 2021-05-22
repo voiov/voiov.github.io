@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>点滴</title><link>https://voiov.github.io/</link><description>Recent content on 点滴</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 15 May 2021 18:59:49 +0800</lastBuildDate><atom:link href="https://voiov.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Some Similar English Word</title><link>https://voiov.github.io/posts/some-similar-english-word/</link><pubDate>Sat, 15 May 2021 18:59:49 +0800</pubDate><guid>https://voiov.github.io/posts/some-similar-english-word/</guid><description>
 一些易混的程序设计常用单词</description></item><item><title>About</title><link>https://voiov.github.io/about/</link><pubDate>Fri, 29 Nov 2019 11:17:18 +0800</pubDate><guid>https://voiov.github.io/about/</guid><description>
-80后.真.钢铁直男
-技能树
-★★★ Go，PHP，JavaScript，Linux，Vim，Tmux，Excel，Docker,Rust ★★☆ Shell,Nginx,Mysql,Python ★☆☆ 汇编，C，Cpp，Java 爱好
-读书，撸代码，跑步，游泳</description></item><item><title>Sort</title><link>https://voiov.github.io/posts/sort/</link><pubDate>Sun, 02 Dec 2018 10:20:31 +0800</pubDate><guid>https://voiov.github.io/posts/sort/</guid><description>
+爱好 读书，编程，游泳, 羽毛球 技术栈 ★★★ : 常用。★★☆ : 偶尔使用。 ★☆☆ : 差不多能看懂，但几乎不用。 技能 熟练度 技能 熟练度 技能 熟练度 技能 熟练度 Rust ★★★ Go ★★★ JavaScript ★★★ PHP ★★★ git ★★☆ Shell ★★☆ VimL ★★☆ Sql ★★☆ Linux ★★★ MacOS ★★★ Vim ★★★ Tmux ★★★ Hugo ★★★ Docker ★★☆ Node.js ★★☆ Excel ★★☆ Gin ★★☆ Vue ★★☆ 汇编 ★☆☆ C/CPP ★☆☆</description></item><item><title>Sort</title><link>https://voiov.github.io/posts/sort/</link><pubDate>Sun, 02 Dec 2018 10:20:31 +0800</pubDate><guid>https://voiov.github.io/posts/sort/</guid><description>
 初级排序 选择排序： 最简单的排序算法：假设数组长度为n，从i=0( i是数组索引) 开始遍历数组，找到最小值，与第i个元素交换，如此往复，知道将整个数组排序。
 插入排序: 选择排序：当前索引之前的所有元素都是有序的，但是他们最终位置还不确定，当索引到达数组的末尾时，数组排序就完成了。
 希尔排序： 使数组中任意间隔为h的元素都是有序的，逐渐减小h到1即可完成排序。
