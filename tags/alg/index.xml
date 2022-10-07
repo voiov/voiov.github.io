@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>alg on 点滴</title><link>https://voiov.github.io/tags/alg/</link><description>Recent content in alg on 点滴</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 02 Dec 2018 10:20:31 +0800</lastBuildDate><atom:link href="https://voiov.github.io/tags/alg/index.xml" rel="self" type="application/rss+xml"/><item><title>Sort</title><link>https://voiov.github.io/post/sort/</link><pubDate>Sun, 02 Dec 2018 10:20:31 +0800</pubDate><guid>https://voiov.github.io/post/sort/</guid><description>&lt;h3 id="初级排序">初级排序&lt;/h3>
+&lt;h4 id="选择排序">选择排序：&lt;/h4>
+&lt;blockquote>
+&lt;p>最简单的排序算法：假设数组长度为&lt;code>n&lt;/code>，从&lt;code>i=0&lt;/code>( &lt;code>i&lt;/code>是数组索引) 开始遍历数组，找到最小值，与第i个元素交换，如此往复，知道将整个数组排序。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="插入排序">插入排序:&lt;/h4>
+&lt;blockquote>
+&lt;p>选择排序：当前索引之前的所有元素都是有序的，但是他们最终位置还不确定，当索引到达数组的末尾时，数组排序就完成了。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="希尔排序">希尔排序：&lt;/h4>
+&lt;blockquote>
+&lt;p>使数组中任意间隔为h的元素都是有序的，逐渐减小h到1即可完成排序。&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">ShellSort&lt;/span>(&lt;span style="color:#a6e22e">a&lt;/span> []&lt;span style="color:#66d9ef">int&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">n&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> len(&lt;span style="color:#a6e22e">a&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">h&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">h&lt;/span> &amp;lt; &lt;span style="color:#a6e22e">n&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span> { &lt;span style="color:#75715e">//寻找合适的间隔h
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">h&lt;/span> = &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#a6e22e">h&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">h&lt;/span> &lt;span style="color:#f92672">&amp;gt;=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//将数组变为间隔h个元素有序
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">h&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span> &amp;lt; &lt;span style="color:#a6e22e">n&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span>&lt;span style="color:#f92672">++&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//间隔h插入排序(将a[i]插入到a[i-h],a[i-2*h],a[i-3*h]...中)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">j&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span>; &lt;span style="color:#a6e22e">j&lt;/span> &lt;span style="color:#f92672">&amp;gt;=&lt;/span> &lt;span style="color:#a6e22e">h&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">a&lt;/span>[&lt;span style="color:#a6e22e">j&lt;/span>] &amp;lt; &lt;span style="color:#a6e22e">a&lt;/span>[&lt;span style="color:#a6e22e">j&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">h&lt;/span>]; &lt;span style="color:#a6e22e">j&lt;/span> &lt;span style="color:#f92672">-=&lt;/span> &lt;span style="color:#a6e22e">h&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">swap&lt;/span>(&lt;span style="color:#a6e22e">a&lt;/span>, &lt;span style="color:#a6e22e">j&lt;/span>, &lt;span style="color:#a6e22e">j&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">h&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">h&lt;/span> &lt;span style="color:#f92672">/=&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">swap&lt;/span>(&lt;span style="color:#a6e22e">slice&lt;/span> []&lt;span style="color:#66d9ef">int&lt;/span>, &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span>, &lt;span style="color:#a6e22e">j&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">slice&lt;/span>[&lt;span style="color:#a6e22e">i&lt;/span>], &lt;span style="color:#a6e22e">slice&lt;/span>[&lt;span style="color:#a6e22e">j&lt;/span>] = &lt;span style="color:#a6e22e">slice&lt;/span>[&lt;span style="color:#a6e22e">j&lt;/span>], &lt;span style="color:#a6e22e">slice&lt;/span>[&lt;span style="color:#a6e22e">i&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="归并排序">归并排序：&lt;/h4></description></item><item><title>Golang String Algorithm</title><link>https://voiov.github.io/post/some-string-algorithm/</link><pubDate>Fri, 30 Nov 2018 11:50:23 +0800</pubDate><guid>https://voiov.github.io/post/some-string-algorithm/</guid><description>&lt;h3 id="一些关于字符串查找的算法">一些关于字符串查找的算法&lt;/h3>
+&lt;p>一些约定：&lt;/p>
+&lt;p>以下用 &lt;code>str&lt;/code> 代表主串（也就是目标串，被检索的文本), &lt;code>pat&lt;/code> 代表子串（也就时检索用的关键字 pattern )&lt;/p>
+&lt;h4 id="朴素算法">朴素算法&lt;/h4>
+&lt;blockquote>
+&lt;p>朴素算法用白话讲就是：以主串每个字符开头，与子串进行匹配，最外层遍历主串，内层遍历子串,内层有不匹配时，外层从下一个字符开始，重新匹配子串。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="kmp算法">KMP算法&lt;/h4>
+&lt;blockquote>
+&lt;p>KMP算法，主串索引不回溯，子串根据第一次不匹配的字串索引查出对应&lt;code>next&lt;/code>数组中的值，继续和主串接下来的字符比较。
+KMP 中&lt;code>next&lt;/code>数组作用是：如果&lt;code>pat&lt;/code>中第&lt;code>j&lt;/code>个位置不匹配，则下次从&lt;code>pat&lt;/code>的&lt;code>next[j]&lt;/code>处开始比较。&lt;/p>
+&lt;/blockquote>
+&lt;!--`next`数组构造--></description></item></channel></rss>

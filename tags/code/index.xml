@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on 点滴</title><link>https://voiov.github.io/tags/code/</link><description>Recent content in Code on 点滴</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 15 May 2021 18:59:49 +0800</lastBuildDate><atom:link href="https://voiov.github.io/tags/code/index.xml" rel="self" type="application/rss+xml"/><item><title>Some Similar English Word</title><link>https://voiov.github.io/post/some-similar-english-word/</link><pubDate>Sat, 15 May 2021 18:59:49 +0800</pubDate><guid>https://voiov.github.io/post/some-similar-english-word/</guid><description>
+&lt;div align=center style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
+&lt;iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; "
+id="biliplayer"
+src="//player.bilibili.com/player.html?bvid=BV1Cg4y187uN&amp;page=1"
+scrolling="no"
+border="0"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+loading="lazy" >
+&lt;/iframe>
+&lt;/div>
+&lt;h1 id="一些易混的程序设计常用单词">一些易混的程序设计常用单词&lt;/h1>
+&lt;blockquote>
+&lt;p>一些单词,&lt;br>
+单独拎出能够明白，&lt;br>
+可是一起出现就有些分不清,&lt;br>
+这里列举了些常见的易混淆单词。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="parameter-argument1-flag-option-2">parameter, argument&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>, flag, option &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>parameter&lt;/strong>&lt;/dt>
+&lt;dd>is a variable in a method &lt;em>definition&lt;/em> .&lt;/dd>
+&lt;dt>&lt;strong>arguments&lt;/strong>&lt;/dt>
+&lt;dd>When a method is &lt;em>called&lt;/em> ,the &lt;strong>arguments&lt;/strong> are the data you pass into the method&amp;rsquo;s &lt;em>parameters&lt;/em>.&lt;/dd>
+&lt;dt>&lt;strong>option&lt;/strong>&lt;/dt>
+&lt;dd>The term &lt;strong>option&lt;/strong> is derived from &lt;em>optional&lt;/em>, which implies they can be left out.&lt;/dd>
+&lt;dt>&lt;strong>Flags&lt;/strong>&lt;/dt>
+&lt;dd>the same as &lt;strong>option&lt;/strong>, but usually do not take arguments themselves and essentially represent boolean on-off switches.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="archtypes--prototype-3">archtypes , prototype &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>prototype&lt;/strong>&lt;/dt>
+&lt;dd>&lt;strong>prototype&lt;/strong> is the first, or one of the first, editions of something. Usually, the design is not finished.&lt;/dd>
+&lt;dt>&lt;strong>archetype&lt;/strong>&lt;/dt>
+&lt;dd>An &lt;strong>archetype&lt;/strong> is the original design that other designers usually copy from. (In other words, people usually make &amp;lsquo;&amp;lsquo;knock-offs&amp;rsquo;&amp;rsquo; of an archetype.&lt;/dd>
+&lt;/dl>
+&lt;p>An example of an archetype is the iPad, or iPhone 6. Many cell phones and tablets try to make their products look &amp;lsquo;cool&amp;rsquo; like that, because that is what people look for.&lt;/p>
+&lt;h2 id="assign--merge--extend-4">assign , merge , extend &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>extend&lt;/strong>/&lt;strong>assign&lt;/strong>&lt;/dt>
+&lt;dd>For each property in source, copy its value as-is to destination. if property values themselves are objects, there is &lt;strong>no recursive&lt;/strong> traversal of their properties. Entire object would be taken from source and set in to destination.
+&lt;strong>merge&lt;/strong>&lt;/dd>
+&lt;dd>For each property in source, check if that property is object itself. If it is then go down recursively and try to map child object properties from source to destination. So essentially we merge object hierarchy from source to destination. While for extend/assign, it&amp;rsquo;s simple one level copy of properties from source to destination.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="asset--resource-source567">asset , resource ,source&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>resource&lt;/strong>&lt;/dt>
+&lt;dd>指广义上的资源。任何有限的，用来分配的东西都可以叫资源，比如CPU运算时间，内存空间等。也可以指相对于代码而言的那些数据，比如CSS和JS文件，用webpack来打包。在这个上下文里，CSS和JS文件就叫做资源。&lt;/dd>
+&lt;dt>&lt;strong>assets&lt;/strong>&lt;/dt>
+&lt;dd>更倾向于翻译成素材。比如3D游戏里的贴图，视频剪辑软件里导入的视频、音频文件等。&lt;/dd>
+&lt;/dl>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>asset&lt;/th>
+&lt;th>resource&lt;/th>
+&lt;th>source&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>n. 资产；有用的东西；有利条件；优点&lt;/td>
+&lt;td>n. 资源，财力；办法；智谋&lt;/td>
+&lt;td>n. 来源；原始资料；水源&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>Let us take for example a plot of land. A company, let’s call that X buys that plot of land in exchange of money to be used in production activities.&lt;br>
+In this case, land is a &lt;strong>resource&lt;/strong> as in, the land is the &lt;strong>source&lt;/strong> from which benefit is produced. The benefit here is the land being used for productive purposes.&lt;br>
+Let us take for example a plot of land. A company, let’s call that X buys that plot of land in exchange of money to be used in production activities.&lt;br>
+The land becomes an &lt;strong>asset&lt;/strong> for the company. An &lt;strong>asset&lt;/strong> is is a &lt;strong>resource&lt;/strong> that is controlled by the person/company from which one can expect to receive future benefits. By future benefit, I mean the revenue that is generated by the operation of the business in the land.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="section--article-8">Section , Article: &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>section&lt;/strong>&lt;/dt>
+&lt;dd>Used to either group different articles into different purposes or subjects, or to define the different sections of a single article.&lt;/dd>
+&lt;dt>&lt;strong>article&lt;/strong>&lt;/dt>
+&lt;dd>is related to &lt;strong>section&lt;/strong>, but is distinctly different. Whereas &lt;strong>section&lt;/strong> is for grouping distinct sections of content or functionality, &lt;strong>article&lt;/strong> is for containing related individual standalone pieces of content, such as individual blog posts, videos, images or news items. Think of it this way - if you have a number of items of content, each of which would be suitable for reading on their own, and would make sense to syndicate as separate items in an RSS feed, then &lt;strong>article&lt;/strong> is suitable for marking them up.&lt;/dd>
+&lt;/dl>
+&lt;blockquote>
+&lt;p>&lt;code>&amp;lt;section id=&amp;quot;main&amp;quot;&amp;gt;&lt;/code> contains blog entries. Each blog entry would be suitable for syndicating as an item in an RSS feed, and would make sense when read on its own, out of context, therefore &lt;code>&amp;lt;article&amp;gt;&lt;/code> is perfect for them:&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;main&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">&amp;lt;!-- first blog post --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">&amp;lt;!-- second blog post --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">&amp;lt;!-- third blog post --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Be aware though that you can also nest sections inside articles, where it makes sense to do so. For example, if each one of these blog posts has a consistent structure of distinct sections, then you could put sections inside your articles as well. It could look something like this:&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;introduction&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;content&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">section&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;summary&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">section&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">article&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="taxonomies-categorytag-label">Taxonomies, category,tag ,label&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">Taxonomies&lt;/th>
+&lt;th style="text-align:center">category&lt;/th>
+&lt;th style="text-align:center">tag&lt;/th>
+&lt;th style="text-align:center">label&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">n. 分类学；分类法&lt;/td>
+&lt;td style="text-align:center">n. 种类, 类别&lt;/td>
+&lt;td style="text-align:center">n. 标签, 签条&lt;/td>
+&lt;td style="text-align:center">n. 标签；商标；签条&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">后面的都属于分类学&lt;/td>
+&lt;td style="text-align:center">豆瓣中预设的分类&lt;/td>
+&lt;td style="text-align:center">豆瓣中给图书加标签&lt;/td>
+&lt;td style="text-align:center">在填写表单时的标识符&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="class--type--kind-9">class , type , kind &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>class&lt;/strong>&lt;/dt>
+&lt;dd>正式用词，指门类、种类或优劣等级；用于指动植物的分类时，表示“纲”&lt;/dd>
+&lt;dt>&lt;strong>type&lt;/strong>&lt;/dt>
+&lt;dd>指客观界限比较清楚，有相同本质特点的同类事物，或指大致相似的同类事物。&lt;em>( 某类 )&lt;/em>&lt;/dd>
+&lt;dt>&lt;strong>kind&lt;/strong>&lt;/dt>
+&lt;dd>指性质相同，而且特征很相似，足以归为一类的人或东西。&lt;em>( 可以归为某类 )&lt;/em>&lt;/dd>
+&lt;/dl>
+&lt;p>In short, &lt;strong>type&lt;/strong> is used to differentiate one group from the rest and &lt;strong>kind&lt;/strong> is used to link an individual to a group. They are sometimes interchangeable, but not always.&lt;/p>
+&lt;p>&lt;strong>Type&lt;/strong> refers to clearly distinguishing and essential characteristics or traits shared by members of a group. Its root meaning is &amp;ldquo;impression.&amp;rdquo;&lt;/p>
+&lt;blockquote>
+&lt;p>O+ is the most common blood type in the United States of America.
+To mankind in general Macbeth and Lady Macbeth stand out as the supreme type of all that a host and hostess should not be — Max Beerbohm.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Kind&lt;/strong>, on the other hand, usually refers to a group trait that is shared innately by the members (see &amp;ldquo;mankind&amp;rdquo; above). Its root meaning is &amp;ldquo;race&amp;rdquo; or &amp;ldquo;offspring.&amp;rdquo;&lt;/p>
+&lt;blockquote>
+&lt;p>The true test of civilization is, not the census, nor the size of the cities, nor the crops, but the &lt;strong>kind&lt;/strong> of man that the country turns out — Ralph Waldo Emerson.
+The rule which forbids ending a sentence with a preposition is the &lt;strong>kind&lt;/strong> of nonsense up with which I will not put&amp;quot; — misattributed to Winston Churchill.&lt;/p>
+&lt;/blockquote>
+&lt;p>Interchangeable use:&lt;/p>
+&lt;pre>&lt;code>She's not that kind/type of person. She is not nasty. She's very nice.
+&lt;/code>&lt;/pre>
+&lt;p>See examples below:&lt;/p>
+&lt;pre>&lt;code>She's not your type. (=you are attracted to a different kind of girl = 她不是你的菜/喜欢的类型)
+She's not your kind. (=She's a fundamentally different sort of person = 她和你不是一种人)
+&lt;/code>&lt;/pre>
+&lt;h2 id="field--property-attribute--variable-10">field , property, attribute ,variable &lt;sup id="fnref:10">&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref">10&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>field&lt;/strong>&lt;/dt>
+&lt;dd>A data member of a class. Unless specified otherwise, a field is not static.&lt;/dd>
+&lt;dt>&lt;strong>property&lt;/strong>&lt;/dt>
+&lt;dd>Characteristics of an object that users can set, such as the color of a window.&lt;/dd>
+&lt;dt>&lt;strong>attribute&lt;/strong>&lt;/dt>
+&lt;dd>Not listed in the above glossary&lt;/dd>
+&lt;dt>&lt;strong>variable&lt;/strong>&lt;/dt>
+&lt;dd>An item of data named by an identifier. Each variable has a type, such as int or Object, and a scope. See also class variable, instance variable, local variable.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="element-item--entry-11">element, item , entry &lt;sup id="fnref:11">&lt;a href="#fn:11" class="footnote-ref" role="doc-noteref">11&lt;/a>&lt;/sup>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;strong>Element&lt;/strong>&lt;/dt>
+&lt;dd>a part or aspect of something abstract, especially one that is essential or characteristic.&lt;/dd>
+&lt;dd>Thus, they can be thought of logically connected atomic parts of a whole. E.g. Elements(Nodes) of a Tree, Elements of a HTML code(Opening tag, InnerHtml content and Closing tag)&lt;/dd>
+&lt;dt>&lt;strong>Item&lt;/strong>&lt;/dt>
+&lt;dd>an individual article or unit, especially one that is part of a list, collection, or set.&lt;/dd>
+&lt;dd>I prefer this when the thing are logically independent like Items in a Shopping cart, Items in a bag, etc&lt;/dd>
+&lt;dt>&lt;strong>Entry&lt;/strong>&lt;/dt>
+&lt;dd>an item written or printed in a diary, list, ledger, or reference book.&lt;/dd>
+&lt;dd>I usually use this for tables like Hash Table or Accounts(Transaction entry) or Records(recording entries in sales, etc.)&lt;/dd>
+&lt;/dl>
+&lt;p>Now we can&amp;rsquo;t refer the items in a bag(considered as an Object in Object oriented paradigm) as entries or elements(probably not elements because the items as not constituents of the bag itself).&lt;/p>
+&lt;p>However, in some cases like an array we can use the element or item or entry interchangeably too :)&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://stackoverflow.com/questions/156767/whats-the-difference-between-an-argument-and-a-parameter" target="_blank" rel="noopener"
+>What&amp;rsquo;s the difference between an argument and a parameter?&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a class="link" href="https://unix.stackexchange.com/questions/285575/whats-the-difference-between-a-flag-an-option-and-an-argument" target="_blank" rel="noopener"
+>What&amp;rsquo;s the difference between a flag, an option, and an argument?&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a class="link" href="https://hinative.com/zh-CN/questions/141220" target="_blank" rel="noopener"
+>prototype 和 archetype 有什么区别？&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a class="link" href="https://stackoverflow.com/questions/19965844/lodash-difference-between-extend-assign-and-merge" target="_blank" rel="noopener"
+>Lodash - difference between .extend() / .assign() and .merge()&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a class="link" href="https://www.zhihu.com/question/67022283" target="_blank" rel="noopener"
+>计算机英文resource和asset的中文翻译有什么不同吗？&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>&lt;a class="link" href="https://www.quora.com/What-is-the-difference-between-asset-and-resource" target="_blank" rel="noopener"
+>What is the difference between asset and resource? - Quora&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7">
+&lt;p>&lt;a class="link" href="https://hinative.com/en-US/questions/6056277" target="_blank" rel="noopener"
+>resource 和 source 有什么区别？如果难以说明的话，请教我一下例句&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8">
+&lt;p>&lt;a class="link" href="https://stackoverflow.com/questions/7549561/section-vs-article-html5" target="_blank" rel="noopener"
+>Section vs Article HTML5&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9">
+&lt;p>&lt;a class="link" href="https://english.stackexchange.com/questions/15075/whats-the-difference-between-kind-and-type" target="_blank" rel="noopener"
+>What&amp;rsquo;s the difference between “kind” and “type”?&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:10">
+&lt;p>&lt;a class="link" href="https://stackoverflow.com/questions/10115588/what-is-the-difference-between-field-variable-attribute-and-property-in-java" target="_blank" rel="noopener"
+>What is the difference between field, variable, attribute, and property in Java POJOs?&lt;/a>&amp;#160;&lt;a href="#fnref:10" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:11">
+&lt;p>&lt;a class="link" href="https://stackoverflow.com/questions/31427117/difference-between-element-item-and-entry-when-it-comes-to-programming" target="_blank" rel="noopener"
+>Difference between element, item and entry when it comes to programming?&lt;/a>&amp;#160;&lt;a href="#fnref:11" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

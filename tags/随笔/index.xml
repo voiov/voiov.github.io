@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>随笔 on 点滴</title><link>https://voiov.github.io/tags/%E9%9A%8F%E7%AC%94/</link><description>Recent content in 随笔 on 点滴</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 23 May 2021 14:14:24 +0800</lastBuildDate><atom:link href="https://voiov.github.io/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml"/><item><title>一些 vim 冷门功能</title><link>https://voiov.github.io/post/about-vim/</link><pubDate>Sun, 23 May 2021 14:14:24 +0800</pubDate><guid>https://voiov.github.io/post/about-vim/</guid><description>&lt;h3 id="一些-vim-冷门功能">一些 vim 冷门功能&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>命令行模式&lt;code>Command-line&lt;/code>: 在 &lt;code>Normal&lt;/code> 模式下按下 &lt;code>:&lt;/code> 或 &lt;code>/&lt;/code> 即可进入，用来输入&lt;code>Ex&lt;/code>命令。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ex 模式&lt;code>Ex&lt;/code>: 在&lt;code>Normal&lt;/code>模式按下&lt;code>Q&lt;/code>进入。类似命令行模式，只是每个命令结束后不会自动回到普通模式（vimrc 脚本即处于这一模式）。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在Ex模式或者命令行模式想输入&lt;code>&amp;lt;Esc&amp;gt;&lt;/code>或者&lt;code>&amp;lt;CR&amp;gt;&lt;/code>时，可以按下&lt;code>&amp;lt;C-v&amp;gt;&lt;/code>再按要输入的键。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
