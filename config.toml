@@ -1,0 +1,55 @@
+baseURL = "https://voiov.github.io"
+DefaultContentLanguage = "zh-cn"
+enableInlineShortcodes = true
+theme = "hugo-theme-stack"
+paginate = 5
+
+[module.hugoVersion]
+extended = true
+min = "0.87.0"
+
+[Params]
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+
+[Params.sidebar]
+subtitle = "好记性不如烂笔头"
+compact = true
+
+[Params.sidebar.avatar]
+src = "img/avatars.png"
+
+[Params.Comments]
+enabled = true
+provider = 'utterances'
+
+[Params.Comments.utterances]
+repo = "voiov/voiov.github.io"
+issueTerm = "title"
+label = ""
+
+[Params.colorScheme]
+toggle = true
+default = "auto"
+
+[Params.imageProcessing.cover]
+enabled = true
+
+[Params.imageProcessing.content]
+enabled = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[languages]
+[languages.zh-cn]
+title = "点滴"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 10
